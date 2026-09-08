@@ -365,18 +365,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9080305800863638331, guid: c8f17795836dc374d9c977a061acf5c5, type: 3}
-      propertyPath: boundaryPadding
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9080305800863638331, guid: c8f17795836dc374d9c977a061acf5c5, type: 3}
-      propertyPath: leftBoundaryPadding
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9080305800863638331, guid: c8f17795836dc374d9c977a061acf5c5, type: 3}
-      propertyPath: rightBoundaryPadding
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
