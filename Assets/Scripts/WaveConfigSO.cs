@@ -1,11 +1,23 @@
+using System;
 using System.IO;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "WaveConfig", menuName = "New WaveConfig")]
 public class WaveConfigSO : ScriptableObject
 {
+    [SerializeField] GameObject[] enemyPrefab;
     [SerializeField] Transform pathPrefab;
-    [SerializeField] float enemyMoveSpeed = 5f;
+    [SerializeField] float enemyMoveSpeed = 1f;
+
+    public int GetEnemyCount()
+    {
+        return enemyPrefab.Length;
+    }
+
+    public GameObject GetEnemyPrefab(int index)
+    {
+        return enemyPrefab[index];
+    }
 
     public Transform GetStartingWaypoint()
     {
